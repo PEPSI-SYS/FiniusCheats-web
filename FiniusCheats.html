@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>24/7 Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background: linear-gradient(135deg, #000000 50%, #b30000 50%);
+      color: white;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+    }
+    h1 {
+      color: #ff3333;
+      margin-bottom: 0;
+    }
+    p {
+      margin-top: 5px;
+      margin-bottom: 30px;
+      font-size: 1.2em;
+    }
+    button, .btn {
+      background-color: #ff3333;
+      border: none;
+      color: white;
+      padding: 15px 25px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+      display: inline-block;
+      margin: 5px;
+    }
+    button:hover, .btn:hover {
+      background-color: #cc0000;
+    }
+    .shop-item {
+      background: #330000;
+      padding: 20px;
+      border-radius: 8px;
+      max-width: 300px;
+      margin: 0 auto 30px;
+      text-align: center;
+    }
+    .shop-item h2 {
+      margin-top: 0;
+      color: #ff6666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to my 24/7 website!</h1>
+  <p>This site is always online.</p>
+
+  <!-- Download Button -->
+  <a href="https://example.com/path/to/FiniusCheats.zip" download="FiniusCheats.zip" class="btn" aria-label="Download FiniusCheats">Download FiniusCheats</a>
+
+  <!-- Shop Section -->
+  <div class="shop-item">
+    <h2>VIP | PANEL | $4.99</h2>
+    <button onclick="buyVIP()">Buy</button>
+  </div>
+
+  <!-- Discord Button -->
+  <a href="https://discord.gg/v5URC8Gb" target="_blank" rel="noopener" class="btn" aria-label="Join Discord">Join Discord</a>
+
+  <script>
+    function buyVIP() {
+      alert("Thank you for your interest! Payment integration coming soon.");
+      // You can replace this alert with actual payment integration later
+    }
+  </script>
+</body>
+</html>
